@@ -1,0 +1,27 @@
+.navbar{
+    background-color:black;
+    border-radius: 30px;
+}
+.navbar ul{
+    overflow: hidden;
+}
+.navbar li{
+    float: right;
+    list-style: none;
+    margin: 15px 20px;
+}
+.navbar li a{
+    padding: 3px 7px;
+    text-decoration: none;
+    color: beige;
+}
+.navbar li a :hover{
+    background-color: blue;
+}
+
+
+
+.navbar{ /* to shift navbar to right */
+    display: flex;
+    justify-content: right;
+}

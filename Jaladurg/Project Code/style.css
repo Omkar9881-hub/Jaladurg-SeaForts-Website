@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 1rem;
+}
+
+.logo_box {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    border-radius: 50%;
+    height: 45px;
+    width: 50px;
+    margin-right: 1rem;
+}
+
+.logo_box h1 {
+    color: white;
+    font-size: 1.5rem;
+    font-family: "montserrat";
+}
+
+.tabs {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.tabs li {
+    position: relative;
+    font-weight: bold;
+    font-family:'Trebuchet MS';
+}
+
+.tabs a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+.tabs a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-bottom-right-radius:30px ;
+    border-bottom-left-radius:30px ;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+}
+.container{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    background-color: #a0b4bb;
+    /* background-image: url('seafort1.jpg'); */
+    background-image: url('bgimg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#cont_head{
+    padding-top: 8rem;
+    padding-left: 1rem;
+    font-family:Verdana;
+    /* font-family:cursive; */
+    /* font-family: poppins; */
+    font-size: 45px;
+    color:	#36454F;
+}
+#cont_desc{
+    padding-top: 0.3rem;
+    /* border: 2px solid black; */
+    padding-left: 1rem;
+    font-family:Verdana;
+    font-size: 20px;
+    max-width: 50%;
+    text-align: justify;
+  text-justify: inter-word;
+}
+
+.introdiv{
+    /* border:2px solid red ; */
+background-color: #a0b4bb;
+/* background: linear-gradient(to top,#51665D, #335443 ,#183020 ); */
+  /* justify-content: center;
+  align-items: center; */
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+
+.intro{
+    /* border:2px solid blue ; */
+    /* display: flex; */
+    height: 60%;
+    width: 60%;
+    /* height: 60vh; */
+    margin-top: 8rem;
+    margin-bottom:2rem;
+    margin-right: 1rem;
+} 
+
+.intro p{
+    color: white;
+    font-size:larger;
+    line-height: 2.3rem;
+    /* font-family: 'Trebuchet MS', sans-serif; */
+    font-family: "Poppins";
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    /* background: white; */
+    /* background: rgba(0, 0, 0, 0.5); */
+    /* background: linear-gradient(to bottom, #000428, #004e92); */
+    background-color: #28282B;
+    /* background-color:black; */
+
+    border-radius: 10px;
+    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.map{
+    /* border:2px solid blue ; */
+    /* display: flex; */
+    height: 80%;
+    width: 40%;
+    margin-top: 8rem;
+    margin-bottom:2rem;
+    margin-left:1rem ;
+    /* border-radius: 10px; */
+}
+.map_img{
+    border-radius: 10px;
+    border: 6px solid #28282B;;
+}
+
+.footer {
+    background-color:black; 
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer .social-icons {
+    margin-bottom: 1rem;
+    margin-top: 0.3rem;
+    /* border: 2px solid white; */
+}
+.footer .social-icons a {
+    color: white;
+    /* font-size: 1.5rem; */
+    /* margin: 10px; */
+    display: inline-block;
+    /* transition: 0.3s; */
+}
+
+.footer .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+.contactus{
+    display: flex;
+    justify-content: center;
+    /* text-decoration: underline;
+    text-underline-offset: 0.3rem; */
+    /* border: 2px solid white; */
+    margin-left: 32rem;
+    align-items: center;
+    height: 7%;
+    width: 20%;
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+

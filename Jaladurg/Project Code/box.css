@@ -1,0 +1,132 @@
+
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+body{
+ font-family: arial;
+}
+.carddiv{
+  background-color: #a0b4bb;
+  /* background: linear-gradient(to top,#51665D, #335443 ,#183020 ); */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+.main{
+padding: 1rem;
+ margin: 2%;
+ margin-top: 8rem;
+ display: grid;
+ /* border: 2px solid black;  */
+ /* height: fit-content; */
+ gap: 2rem;
+ grid-template-areas: 
+ "card1 card2 card3" 
+ "card4 card5 card6";
+ position: relative;
+ background-color: #a0b4bb;
+ /* background: linear-gradient(to top,#51665D, #335443 ,#183020 ); */
+}
+ 
+
+#janjira_card{
+    grid-area: card1;
+    height: 100%;
+    width: 80%;
+   
+}
+
+
+#sindhudurg_card{
+    grid-area: card2;
+    height: 100%;
+    width: 80%;
+ 
+}
+
+#vijaydurg_card{
+    grid-area: card3;
+    height: 100%;
+    width: 80%;
+
+  }
+
+#kolabadurg_card{
+    grid-area: card4;
+    height: 100%;
+    width: 80%;
+  
+}
+
+#suvarnadurg_card{
+    grid-area: card5;
+    height: 100%;
+    width: 80%;
+  
+}
+
+#andheri_card{
+  grid-area: card6;
+  height: 100%;
+  width: 80%;
+
+}
+
+
+.card{
+     width: 80%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     background-color: white;
+     border-radius: 5px; 
+     margin: auto;
+    }
+
+.card:hover{
+    transition:all;
+    transform:scale(1.08);
+}
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px; 
+ }
+
+.title{
+  text-align: center;
+  padding: 10px;
+  color: #5c5c5c;
+ }
+
+h1{
+  font-size: 20px;
+
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+  padding-top: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: black;
+
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer; 
+}
